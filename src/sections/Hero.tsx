@@ -3,7 +3,7 @@ import { Calendar, ArrowRight, TrendingDown, Shield, Users } from 'lucide-react'
 
 const Hero = () => {
   const handleBookAppointment = () => {
-    window.open('https://calendly.com/blueocean-tax', '_blank')
+    window.open('https://calendly.com/blueoceantax/one-to-one-meeting?embed_domain=blueocean.tax&embed_type=Inline&month=2025-12&date=2025-12-30', '_blank')
   }
 
   const features = [
