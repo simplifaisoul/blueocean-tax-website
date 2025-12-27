@@ -44,7 +44,7 @@ const Footer = () => {
               custom tailored range of personal and small business tax services.
             </p>
             <motion.button
-              onClick={() => window.open('https://calendly.com/blueocean-tax', '_blank')}
+              onClick={() => window.open('https://calendly.com/blueoceantax/one-to-one-meeting?embed_domain=blueocean.tax&embed_type=Inline&month=2025-12&date=2025-12-30', '_blank')}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="flex items-center space-x-2 px-4 py-2 bg-ocean-600 hover:bg-ocean-700 rounded-lg transition-colors text-sm font-semibold"
@@ -138,6 +138,31 @@ const Footer = () => {
             </ul>
           </motion.div>
         </div>
+
+        {/* Booking CTA Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="border-t border-gray-800 pt-12 pb-8"
+        >
+          <div className="bg-gradient-to-r from-ocean-600 to-ocean-700 rounded-xl p-8 text-center">
+            <h3 className="text-2xl font-bold text-white mb-3">Ready to Get Started?</h3>
+            <p className="text-ocean-100 mb-6 max-w-2xl mx-auto">
+              Schedule a one-on-one meeting with our tax experts to discuss how we can help minimize your taxes and maximize your financial success.
+            </p>
+            <motion.button
+              onClick={() => window.open('https://calendly.com/blueoceantax/one-to-one-meeting?embed_domain=blueocean.tax&embed_type=Inline&month=2025-12&date=2025-12-30', '_blank')}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="px-8 py-4 bg-white text-ocean-600 rounded-lg font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center space-x-2 mx-auto"
+            >
+              <Calendar size={20} />
+              <span>Book Your One-on-One Meeting</span>
+            </motion.button>
+          </div>
+        </motion.div>
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
