@@ -34,8 +34,7 @@ const Navigation = () => {
   }
 
   const handleBookAppointment = () => {
-    // This would typically open a booking modal or redirect to booking page
-    window.open('https://calendly.com/blueocean-tax', '_blank')
+    window.open('https://calendly.com/blueoceantax/one-to-one-meeting?embed_domain=blueocean.tax&embed_type=Inline&month=2025-12&date=2025-12-30', '_blank')
     // Or you could scroll to a contact section
     // const contactSection = document.getElementById('contact')
     // if (contactSection) {
