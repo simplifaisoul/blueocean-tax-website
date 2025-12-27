@@ -122,7 +122,7 @@ const Businesses = () => {
               We serve businesses across all industries. Contact us to discuss your specific needs.
             </p>
             <motion.button
-              onClick={() => window.open('https://calendly.com/blueocean-tax', '_blank')}
+              onClick={() => window.open('https://calendly.com/blueoceantax/one-to-one-meeting?embed_domain=blueocean.tax&embed_type=Inline&month=2025-12&date=2025-12-30', '_blank')}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 bg-gradient-to-r from-ocean-500 to-ocean-600 text-white rounded-lg font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300"
